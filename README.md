@@ -1,4 +1,8 @@
 # MD-GCCF（pytorch）
+## Introduction
+
+In this work, we proposed a multi-view deep graph contrastive learning for collaborative filtering (MD-GCCF) from two perspectives to resolve some issues in the field of collaborative filtering.
+
 ## Enviroment Requirement
 
 `pip install -r requirements.txt`
