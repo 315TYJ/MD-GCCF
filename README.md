@@ -7,14 +7,14 @@
 
 ## Dataset
 
-We provide three processed datasets: Gowalla, Yelp2018 and Amazon-book and one small dataset LastFM.
+We provide three processed datasets: Gowalla, Yelp2018 and Amazon-book.
 
 see more in `dataloader.py`
 
-## An example to run a 3-layer LightGCN
+## An example to run a 3-layer MD-GCCF
 
-run LightGCN on **Gowalla** dataset:
+run MD-GCCF on **Gowalla** dataset:
 
 * command
 
-` cd code && python main.py --decay=1e-4 --lr=0.001 --layer=3 --seed=2020 --dataset="gowalla" --topks="[20]" --recdim=64`
+` cd code && python main.py --decay=1e-4 --lr=0.001 --layer=3 --seed=2023 --dataset="gowalla" --topks="[20]" --recdim=64`
